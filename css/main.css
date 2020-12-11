@@ -212,7 +212,7 @@
   transition: var(--transition-time-and-function);
 }
 .backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0.3);
+  transform: translate(-50%, -50%) scale(0.3) rotateZ(0deg);
 }
 
 .close-button {
